@@ -9,3 +9,6 @@
 * 7-puts_half.c: function that prints half of a string
 * 8-print_array.c: function that prints n elements of an array of integers
 * 9-strcpy.c: function that copies the string pointed to by src, including the terminating null byte (\0)
+
+
+chmod u+x 0-reset_to_98.c 1-swap.c 2-strlen.c 3-puts.c 4-print_rev.c 5-rev_string.c 6-puts2.c 7-puts_half.c 8-print_array.c 9-strcpy.c 

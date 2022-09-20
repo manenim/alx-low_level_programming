@@ -6,21 +6,30 @@
  * Return: void
  */
 
-void puts_half(char *str)
-{
-	int i, j, max;
+// void puts_half(char *str)
+// {
+// 	int i, j, max;
 
-	i = 0;
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	max = i;
-	j = max / 2;
-	while (j <= max)
-	{
-		_putchar(str[j]);
-		j++;
-	}
-	_putchar('\n');
+// 	i = 0;
+// 	while (str[i] != '\0')
+// 	{
+// 		i++;
+// 	}
+// 	max = i;
+// 	j = max / 2;
+// 	while (j <= max)
+// 	{
+// 		_putchar(str[j]);
+// 		j++;
+// 	}
+// 	_putchar('\n');
+// }
+
+int main(void)
+{
+    char *str;
+
+    str = "0123456789";
+    puts_half(str);
+    return (0);
 }
